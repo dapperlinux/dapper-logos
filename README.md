@@ -18,7 +18,7 @@ Next, setup rpmbuild directories with
 ```bash
 $ rpmdev-setuptree
 ```
-And place the file dapper-logos.spec in the SPECS directory, and rename the dapper-logs directory to dapper-logos-1 and compress it:
+And place the file dapper-logos.spec in the SPECS directory, and rename the dapper-logos directory to dapper-logos-1 and compress it:
 ```bash
 $ mv dapper-logos.spec ~/rpmbuild/SPECS/
 $ mv dapper-logos dapper-logos-25.0
