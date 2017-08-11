@@ -21,9 +21,9 @@ $ rpmdev-setuptree
 And place the file dapper-logos.spec in the SPECS directory, and rename the dapper-logos directory to dapper-logos-1 and compress it:
 ```bash
 $ mv dapper-logos.spec ~/rpmbuild/SPECS/
-$ mv dapper-logos dapper-logos-25.0
-$ tar -czvf dapper-logos-25.0.tar.gz dapper-logos-25.0
-$ mv dapper-logos-25.0.tar.gz ~/rpmbuild/SOURCES/
+$ mv dapper-logos dapper-logos-26
+$ tar -cJvf dapper-logos-26.tar.xz dapper-logos-26
+$ mv dapper-logos-26.tar.xz ~/rpmbuild/SOURCES/
 ```
 
 and finally, you can build RPMs and SRPMs with:

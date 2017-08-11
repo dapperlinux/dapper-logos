@@ -1,12 +1,11 @@
 Name:       dapper-logos
-Version:    25.0
-Release:    3%{?dist}
+Version:    26
+Release:    1
 Summary:    Icons and pictures
 
 Group:      System Environment/Base
 URL:        https://github.com/dapperlinux/dapper-logos
-#Source0:    https://github.com/dapperlinux/dapper-logos/archive/%{version}.tar.gz
-Source0:    %{name}-%{version}.tar.gz
+Source0:    %{name}-%{version}.tar.xz
 #The KDE Logo is under a LGPL license (no version statement)
 License:    GPLv2 and LGPLv2+
 #BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
@@ -162,6 +161,9 @@ rm -rf %{buildroot}
 %{_datadir}/pixmaps/poweredby.png
 
 %changelog
+* Fri Aug 11 2017 Matthew Ruffell <msr50@uclive.ac.nz> - 26
+- Update to F26
+
 * Fri Oct  7 2016 Matthew Ruffell <msr50@uclive.ac.nz> - 25.0-2
 - Added Dapper Linux Branding
 
