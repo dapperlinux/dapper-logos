@@ -1,5 +1,5 @@
 Name:       dapper-logos
-Version:    26
+Version:    27
 Release:    1
 Summary:    Icons and pictures
 
@@ -161,8 +161,11 @@ rm -rf %{buildroot}
 %{_datadir}/pixmaps/poweredby.png
 
 %changelog
+* Fri Nov 17 2017 Matthew Ruffell <msr50@uclive.ac.nz> - 27
+- Update to DL27
+
 * Fri Aug 11 2017 Matthew Ruffell <msr50@uclive.ac.nz> - 26
-- Update to F26
+- Update to DL26
 
 * Fri Oct  7 2016 Matthew Ruffell <msr50@uclive.ac.nz> - 25.0-2
 - Added Dapper Linux Branding
