@@ -1,5 +1,5 @@
 Name:       dapper-logos
-Version:    27
+Version:    28
 Release:    1
 Summary:    Icons and pictures
 
@@ -8,7 +8,6 @@ URL:        https://github.com/dapperlinux/dapper-logos
 Source0:    %{name}-%{version}.tar.xz
 #The KDE Logo is under a LGPL license (no version statement)
 License:    GPLv2 and LGPLv2+
-#BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch:  noarch
 
 Obsoletes:  redhat-logos
@@ -161,6 +160,9 @@ rm -rf %{buildroot}
 %{_datadir}/pixmaps/poweredby.png
 
 %changelog
+* Sat May  5 2018 Matthew Ruffell <msr50@uclive.ac.nz> - 28
+- Update to DL28
+
 * Fri Nov 17 2017 Matthew Ruffell <msr50@uclive.ac.nz> - 27
 - Update to DL27
 
