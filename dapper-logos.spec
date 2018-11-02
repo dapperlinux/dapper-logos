@@ -1,5 +1,5 @@
 Name:       dapper-logos
-Version:    28
+Version:    29
 Release:    1
 Summary:    Icons and pictures
 
@@ -160,6 +160,9 @@ rm -rf %{buildroot}
 %{_datadir}/pixmaps/poweredby.png
 
 %changelog
+* Sat Nov  3 2018 Matthew Ruffell <msr50@uclive.ac.nz> - 29
+- Update to DL29
+
 * Sat May  5 2018 Matthew Ruffell <msr50@uclive.ac.nz> - 28
 - Update to DL28
 
